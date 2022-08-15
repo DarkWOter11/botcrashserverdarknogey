@@ -3666,6 +3666,8 @@ Reflect.defineProperty(DiscordJS.GuildEmoji.prototype, "convertToString", {
   },
 });
 
+client.login(process.env.BOT_TOKEN)
+
 //#endregion
 
 //---------------------------------------------------------------------
